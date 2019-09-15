@@ -1,5 +1,10 @@
 # Python-Network-Simulator
-A simple python application to simulate and packet loss and test solutions.
+ Uma aplicação python simples para simular e empacotar soluções de perda e teste.
 
-## About
-This project is just a simple way to test solutions to, and the effect of, packet loss. This project has three modules. A Sender, a Channel and a Reciever. The modules a linked via Datagram sockets. The channel will drop transmitted packets with a specified probability. The Sender and reciever can be modified to use different Ack strategies.
+ ## About
+ Este projeto é apenas uma maneira simples de testar soluções e o efeito da perda de pacotes.
+ Este projeto possui três módulos.
+  Um remetente, um canal e um recebedor. 
+ Os módulos são vinculados via soquetes de datagrama.  
+O canal descartará pacotes transmitidos com uma probabilidade especificada.  
+O remetente e o destinatário podem ser modificados para usar diferentes estratégias de reconhecimento.
